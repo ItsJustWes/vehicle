@@ -1,0 +1,741 @@
+/*
+ * AUTHORIZED BUYERS
+ * BADGES
+ * BLOG MODULE
+ * BREADCRUMB
+ * BUYERS
+ * CDATA FORMS
+ * COMPANY STAFF & CUSTOMERS CONTAINER
+ * COOL CHECKBOXES
+ * DASHBOARD
+ * DETAILS LISTING PAGE
+ * EVALUATION STARS
+ * FILTERING
+ * FIXEs
+ * FOOTER
+ * HEADER
+ * ICONS
+ * LANGUAGE SELECTOR
+ * LISTING ADD
+ * LISTING MANAGEMENT
+ * LISTING SEARCH
+ * LOGIN FORM
+ * LOGIN MODALS
+ * MAKE AN OFFER / SEARCH LISTINGS
+ * MAP
+ * MENUS
+ * MESSAGES
+ * NEWS MODULE
+ * PAGE HEADER
+ * PAGINATION
+ * PROFILE
+ * REGISTRATION
+ * RESTORE PASSWORD
+ * SAVED ITEMS
+ * SEARCH RESULTS
+ * SEARCH SELLER
+ * SELLERS
+ * SELLER REGISTRATION
+ * SLIDERS
+ * TABLES
+ * UI AUTOCOMPLETE
+ * UI DATEPICKER
+ * VECHICLE DESCRIPTION
+ * */
+
+/* Presses the footer to the bottom */
+html, body { margin:0; padding:0; }
+.body { min-height:100%; margin-bottom:-61px; }
+.page-buffer { height: 61px; }
+
+/*--- HEADER ---*/
+header.site-header a.back-to            { position:fixed; top:0; left:0; font-size:11px; background-color:#eee; padding:5px 10px; z-index:100; color:#000; text-decoration:none; border-radius: 0 0 5px 0; }
+header.site-header a.back-to:hover      { color:#555; }
+
+/*--- LANGUAGE SELECTOR ---*/
+#language-selector                      { margin:0px 0 0 10px; padding-top:3px; padding-right:20px; }
+.additional-triggers > li:last-child .dropdown-menu { left:auto; right:auto; }
+
+/*--- MESSAGES ---*/
+.__alert {
+    font-family:'Lucida Grande',Verdana,Arial,Sans-Serif;font-size:13px; margin:6px auto;height:auto;color:#000;
+    -moz-border-radius:4px; -webkit-border-radius:4px; -khtml-border-radius:4px; border-radius:4px;
+    white-space:pre-wrap;      /* CSS3 */
+    white-space:-moz-pre-wrap; /* Firefox */
+    white-space:-pre-wrap;     /* Opera <7 */
+    white-space:-o-pre-wrap;   /* Opera 7 */
+    word-wrap:break-word;      /* IE */
+    padding:12px;
+    padding-left:45px;
+    background-repeat:no-repeat;
+    background-position:8px 6px;
+}
+.login .__alert,
+.alert-validation { background-color:#ffd9cc; border:1px solid #ffc6b3; color:#c84f39; }
+
+.action-disabled { cursor: default; }
+.btn-default:active, .btn-default.active {
+    border-color: #CCC;
+    color: #222 !important;
+    background-color: #33afca;
+}
+
+/*--- MENUS ---*/
+.caret { display: none; }
+
+/*--- BREADCRUMB ---*/
+.breadcrumb { margin-top:2px; }
+
+/* BUYERS
+ *--------------------------------------------------------------*/
+
+/* Sellers Search */
+.search-icon-boxed {
+    margin-left: -40px;
+}
+
+.dealer-block-text {
+    height: 160px;
+}
+
+#gmap {
+    margin-bottom: 35px;
+}
+
+/*--- LOGIN MODALS  ---*/
+p.error {
+    color:#960000;
+    margin:-15px 1px 15px 1px;
+}
+
+.clearfix-half-contolrs {
+	clear:both;
+    margin-bottom:20px;
+}
+
+#passwordErrorEmpty {
+    margin: 0px 1px;
+}
+
+#captchaError {
+    margin: 8px 1px -15px;
+}
+
+.label-group {
+    margin-top:5px;
+}
+
+.label-group .checkbox-inline {
+    margin-top:10px;
+}
+
+/*--- CDATA FORMS ---*/
+.required-fields-alert {
+    margin-bottom:10px !important;
+    display:block;
+}
+.required {
+    color:#E96C4C;
+}
+
+/*--- PAGE HEADER ---*/
+.page-header{
+    background-image:url(../images/slider/slider-small.png);
+}
+
+/*--- SLIDERS ---*/
+.slider1 {
+    background-image:url(../images/slider/slider1.jpg);
+}
+.slider2 {
+    background-image:url(../images/slider/slider2.jpg);
+}
+.slider3 {
+    background-image:url(../images/slider/slider3.png);
+}
+
+
+/*--- PROFILE ---*/
+.profile_checkbox{
+    margin: 0px 10px !important;
+}
+.profile_label{
+    padding: 5px 0 5px 10px !important;
+}
+
+.profile_label_spacer{
+    padding: 5px 0;
+}
+#tabseparatorOther5{
+    width: 270px;
+}
+.profile_label_floating{
+    float: right;
+}
+
+/*--- DASHBOARD ---*/
+.widget_categories span { color: #000; }
+.dashboard-block tr {
+    border: 1px solid #ddd;
+    border-bottom-width: 2px;
+}
+.dashboard-block td, th {
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+.dashboard-block table{
+    width: 100%;
+}
+.dashboard-block td.actions{
+    width: 80px;
+}
+.listings_active{
+    padding-left: 0 !important;
+}
+.dashboard-block th > a{
+    color: rgb(119, 119, 119) !important;
+}
+.input-group-small { width:100px; }
+.input-group-normal { width:210px; }
+.display-none { display:none; }
+
+
+/* LISTING DETAILS
+---------------------------------------------------------- */
+.badge-expired-listing {
+    float: right;
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    padding: 0.5em 1.7em;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline;
+    font-weight: bold;
+    line-height: 1;
+    color: #FFF;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+
+/* LISTING MANAGEMENT
+---------------------------------------------------------- */
+.listing-sub-tab { padding-left:13px; padding-right:13px; }
+ul.td-listing-descr { margin:0px !important; }
+.btn-fa-listing { margin-top: 5px !important; min-width:75px; text-align: left; color:#667; }
+.btn-fa-listing-download { margin-top: 5px !important; min-width:75px; text-align: left; color:#667; }
+
+/* LISTING ADD
+ --------------------------------------------------------- */
+#clientPopupCreateModal .modal-body {
+    padding-bottom: 0;
+}
+
+#clientPopupCreateModal .input-group {
+    margin-bottom: 10px;
+}
+
+/* LISTING SEARCH
+ --------------------------------------------------------- */
+.filter-options-list.color-options .badge {
+    border: 1px solid #eee;
+}
+
+/* TABLES
+---------------------------------------------------------- */
+table { width:100%; text-align:left; }
+table .picture img { border:4px solid #dfdfdf; margin:7px; padding:0px; }
+table .picture a:hover img { border-color:#BDBDBD; }
+table h1, table h2, table h3, table h4, table h5 { display:inline; }
+table thead th{ border-bottom:1px solid #cdcdcd; _background-color:#f1f2f3; line-height:20px; padding:10px; }
+table thead th.left{ text-align:left; float:none; }
+table thead th.right{ text-align:right; float:none; }
+table thead th.center{ text-align:center; float:none; }
+table thead th.index-column{ padding:0 5px; }
+table thead th.actions{ text-align:center; width:80px; }
+#content table thead th a { text-decoration:none; }
+#content table thead th a:hover { text-decoration:none; }
+#content table thead th a span.sort-arrow { color:#aaa; font-size:11px; line-height:11px; display:inline-block; }
+#content table thead th a span.sort-arrow:hover { color:#a00; transform:rotate(180deg); -ms-transform:rotate(180deg); -webkit-transform:rotate(180deg); -moz-transform:rotate(180deg); -o-transform:rotate(180deg); }
+table thead tr th { font-weight:bold; color:#151515; font-size:14px; padding:10px; }
+table thead tr th:first-child { padding:10px; }
+table thead tr th a { color:#151515; }
+
+table tfoot td{ line-height:20px; padding:8px; }
+table tfoot td.left{ text-align:left; float:none; }
+table tfoot td.right{ text-align:right; float:none; }
+table tfoot td.center{ text-align:center; float:none; }
+table tfoot tr td { color:#454545; font-size:12px; padding-top:5px; padding-bottom:0px; }
+table tfoot tr td:first-child { padding-left:5px; }
+
+table tbody tr td { height:30px; vertical-align:middle; border:1px solid #dadada; border-top:1px solid #ffffff; word-wrap:break-word; word-break:break-all; padding:8px 10px;  }
+table tbody tr td input[type=checkbox] { margin:0px; }
+table tbody tr td:first-child { padding:8px 10px; }
+table tbody tr td.left { text-align:left; }
+table tbody tr td.left label{ margin-top: 0px }
+table tbody tr td.right { text-align:right; }
+table tbody tr td.right label { margin-top: 0px }
+table tbody tr td.center { text-align:center; }
+table tbody tr td.index-column { padding:0 5px }
+table tbody tr td.center select { padding:3px; border:1px solid #d7d7d7; margin:0; }
+table tbody tr td.center select:hover { border:1px solid #98bcdf; }
+table tbody tr:nth-child(2n+1) td { background-color:#fbfbfb; }
+table tbody tr:hover td { color:#353535; background-color:#f7f7f7; border-bottom:1px solid #dadada; border-top:1px solid #fff; }
+table tbody tr td.actions { text-align:right; padding-right:5px; max-width:80px; }
+table tbody tr td.actions img { opacity:0.8; border:0px; margin-right:5px; margin-bottom:-1px; }
+table tbody tr td.actions img:hover { opacity:1;}
+table.noalt tbody tr td { background-color:transparent !important; border-bottom:1px solid #dadbdd; }
+table.noborder tbody tr td { border:none; }
+table tbody tr td img { border:0px; }
+table tbody tr td span.price { color: #E96C4C; font-weight: bold; }
+
+
+/* FILTERING
+---------------------------------------------------------- */
+#content div.filtering-wrapper { margin:0 auto 7px auto; padding:0 5px 10px 5px; height:46px; }
+#content div.filtering-wrapper select { padding:4px; margin-right:7px; }
+#content div.filtering-wrapper input { padding:1px 4px; margin:0; margin-right:7px; }
+#content div.filtering-wrapper div.buttons-wrapper{ min-width:170px; float:right; text-align:right; margin-top:0; }
+#content div.filtering-wrapper div.buttons-wrapper input { padding:4px 9px; }
+#content div.filtering-wrapper div.buttons-wrapper input[type="button"],
+#content div.filtering-wrapper div.buttons-wrapper button[type="submit"],
+#content div.filtering-wrapper div.buttons-wrapper input[type="submit"]{ cursor: pointer; display: inline-block; margin-bottom: 0px; margin-right: 0px; text-align: center; white-space: nowrap; vertical-align: middle;    padding-left: 20px; padding-right: 20px; transition: all 0.3s ease 0.1s; text-shadow: none; text-decoration: none; box-shadow: none; text-transform: uppercase; letter-spacing: 0.07em; line-height: 1.66857; font-weight: 700; color: rgba(255, 255, 255, 0.9); position: relative; font-size: 14px; border: 1px solid transparent; border-radius: 3px; font-family: "Roboto Condensed",sans-serif; }
+#content div.filtering-wrapper div.buttons-wrapper input[type="button"]{ font-weight: normal; color:#888; line-height: 1.42857; text-transform: none; display: inline-block; padding: 4px 12px; font-weight: normal; line-height: 1.42857; -moz-user-select: none; background-image: none; }
+#content div.filtering-wrapper div.buttons-wrapper button[type="submit"],
+#content div.filtering-wrapper div.buttons-wrapper input[type="submit"]{ background-color: #5BC0DE; }
+#content div.filtering-wrapper div.buttons-wrapper input[type="button"]:hover{ color:#444; }
+#content div.filtering-wrapper div.buttons-wrapper button[type="submit"]:hover,
+#content div.filtering-wrapper div.buttons-wrapper input[type="submit"]:hover{ background-color: #2aabd2; border-color: transparent; }
+#content div.filtering-wrapper .w80 { width:80px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w90 { width:90px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w100 { width:100px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w110 { width:110px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w130 { width:130px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w150 { width:150px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w170 { width:170px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .w210 { width:210px !important; margin:0px 10px 0px 5px !important; }
+#content div.filtering-wrapper .inline-block { display:inline-block !important; }
+
+/* FIX for narrow screens like tablets, smartphones, etc. */
+@media screen and (max-width: 1200px) {
+	div.filtering-wrapper {
+		min-height:70px;
+		padding:0 5px 10px 5px;
+	}
+}
+
+/* PAGINATION
+---------------------------------------------------------- */
+div.pagination-wrapper               { padding:3px 0px; margin:20px 0 5px 0; height:22px; color:#999; text-align:left; }
+div.pagination-wrapper .results-part { display:inline-block; padding:0px 5px; line-height:22px; float:right; color:rgb(100, 97, 97); }
+div.pagination-wrapper .links-part   { display:inline-block; }
+div.pagination-wrapper a              { display:inline-block; min-width:20px; line-height:20px; margin:0px 1px 0px 0px; border:1px solid rgb(218, 217, 217); text-align:center; text-decoration:none; color:rgb(100, 97, 97); border-radius:3px 3px 3px 3px; text-shadow:none; }
+div.pagination-wrapper a:hover,
+div.pagination-wrapper a:active      { display:inline-block; min-width:20px; line-height:20px; margin:0px 1px 0px 0px;  border:1px solid #5BC0DE; color:#fff; font-weight:normal; text-align:center; text-decoration:none; border-radius:3px 3px 3px 3px; text-shadow:none; }
+div.pagination-wrapper span.current  { display:inline-block; min-width:20px; line-height:20px; margin:0px 1px 0px 0px; border:1px solid #5BC0DE; color:#fff !important; font-weight:bold; text-align:center; text-decoration:none; border-radius:3px 3px 3px 3px; background-color:#5BC0DE !important; border-color: #5BC0DE !important; }
+div.pagination-wrapper span.disabled { display:inline-block; min-width:20px; line-height:20px; margin:0px 1px 0px 0px; padding:0px 5px; text-align:center; text-decoration:none; border-radius:3px 3px 3px 3px; color:#ddd; }
+div.pagination-wrapper a,
+div.pagination-wrapper span          { border-radius:2px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; padding:0px 2px; }
+div.pagination-wrapper a.first-link  { text-decoration:none; text-shadow:none; font-weight:normal; color:rgb(10, 147, 204); border:0px; padding:0 5px; background:none; }
+div.pagination-wrapper a.first-link:hover { color:rgb(7, 107, 150)}
+div.pagination-wrapper a.last-link   { text-decoration:none; text-shadow:none; font-weight:normal; color:rgb(10, 147, 204); border:0px; padding:0 5px; background:none;}
+div.pagination-wrapper a.last-link:hover { color:rgb(7, 107, 150)}
+
+/* REGISTRATION
+---------------------------------------------------------- */
+.captcha-result{
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.075);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#registration-form{padding: 20px 35px;}
+.signup-form .progress {width:90%}
+.register-block {border: 1px solid #eee; position: relative; border-radius: 3px 3px 0 0; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,.1);}
+.register-block h2.title{margin: 5px 0 0 18px;}
+.register-block .alert{margin: 15px;}
+#registration-form hr.row.company-info {margin: 0 0 20px 0;}
+
+/* SELLERS
+---------------------------------------------------------- */
+.row .btn-default.btn-sm {
+    margin: 10px 15px;
+}
+
+/*--- SELLER AND BUYER REGISTRATION ---*/
+#registration-form #type_person { margin-bottom:15px; display:block; }
+#registration-form #type_person input[type='radio'] { width:5%; }
+#registration-form #type_person label { width:94% }
+#registration-form p#messageError { color:#bd3020; }
+.form-control-left, .form-control-right { width:49%; margin-bottom:0px; }
+.form-control-left { float:left }
+.form-control-right { float:right }
+
+/* RESTORE PASSWORD
+---------------------------------------------------------- */
+.restore-block {border: 1px solid #eee; position: relative; border-radius: 3px 3px 0 0; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,.1);}
+.restore-block h2.title{margin: 0px 0 0 18px;}
+
+/* LOGIN FORM
+---------------------------------------------------------- */
+#login-form { width:335px; margin:10px 0 0 0; padding:14px; border:solid 1px #b7b7b7; font-family: arial,helvetica,sans-serif; font-size:12px; color:#585048; }
+#login-form .row { }
+#login-form .row-button { margin-top:5px; margin-bottom:5px; }
+#regular-signup .row-button input[type="submit"],
+#restore-password .row-button input[type="submit"],
+#human-validation .row-button input[type="submit"],
+#regular-signup .row-button button,
+#restore-password .row-button button,
+#human-validation .row-button button { font-size:15px !important; padding:5px;  }
+#login-form .row label { width:200px; display:inline-block; text-align:right; }
+#buyer-side-login-form .row label.remember,
+#seller-side-login-form .row label.remember { text-align:left; cursor:pointer; padding-left:5px; }
+#login-form p#messageError { color:#bd3020; border-bottom:solid 1px #b7b7b7; }
+#login-form p.error { display:inline-block; font-weight:normal; border:0px; color:#bd3020; margin:0 0 2px 210px; padding:0px; }
+#login-form input { font-size:12px; padding:4px 2px; border:solid 1px #aaaaaa; width:210px; margin:2px 0 3px 10px; }
+#login-form input[type="checkbox"] { width:25px; margin:3px 0px 5px 5px; vertical-align:middle; }
+#login-form input[type="submit"] { font-size:14px; line-height: 20px; clear:both; margin:2px 4px 2px 210px; width:80px; background:#4b4136; border:1px solid #898989; background:#4b4136; border:1px solid #898989; background: -webkit-linear-gradient(top, #b7b7b7 0%, #ababab 10%, #ababab 100%); background: -moz-linear-gradient(center top , rgb(198, 198, 198) 0%, rgb(171, 171, 171) 100%) repeat scroll 0% 0% transparent; border-color: rgb(178, 178, 178) rgb(158, 158, 158) rgb(140, 140, 140); -moz-text-shadow:0px 1px 0px #555; -webkit-text-shadow:0px 1px 0px #555; -o-text-shadow:0px 1px 0px #555; text-shadow:0px 1px 0px #555; color:#fff; font-weight:bold; padding:3px 7px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px; cursor:pointer; text-decoration:none; }
+#login-form input[type="submit"]:hover { color: #f1f2f3; border-color: rgb(170, 170, 170) rgb(152, 152, 152) rgb(135, 135, 135); }
+#login-form a { display:inline-block; padding:0px; margin-left:210px; color:#BE7132; }
+
+#regular-signup, #human-validation, #restore-password {padding: 20px;}
+#regular-signup .alert, #restore-password .alert {display: none;}
+#regular-signup .row, #human-validation .row, #restore-password .row {margin: 0;}
+.login-block {border: 1px solid #eee; position: relative; border-radius: 3px 3px 0 0; background: #fff; box-shadow: 0 0 5px rgba(0,0,0,.1);}
+.login-block h2.title{margin: 5px 0 0 18px;}
+
+#login-side-form button { clear:both; margin:4px 0px 2px 0px; min-width:80px; background:#4b4136; margin-right:4px; border:1px solid #898989; background: -webkit-linear-gradient(top, #b7b7b7 0%, #ababab 10%, #ababab 100%); background: -moz-linear-gradient(center top , rgb(198, 198, 198) 0%, rgb(171, 171, 171) 100%) repeat scroll 0% 0% transparent; border-color: rgb(178, 178, 178) rgb(158, 158, 158) rgb(140, 140, 140); -moz-text-shadow:0px 1px 0px #555; -webkit-text-shadow:0px 1px 0px #555; -o-text-shadow:0px 1px 0px #555; text-shadow:0px 1px 0px #555; color:#fff; font-weight:bold; padding:3px 7px; -moz-border-radius:2px; -webkit-border-radius:2px; -khtml-border-radius:2px; border-radius:2px; cursor:pointer; text-decoration:none; }
+#login-side-form button:hover { color: #f1f2f3; border-color: rgb(170, 170, 170) rgb(152, 152, 152) rgb(135, 135, 135); }
+#login-side-form p.error { font-weight:normal; color:#bd3020; }
+#login-side-form input { font-size:12px; padding:4px 2px; border:solid 1px #aaaaaa; }
+#login-side-form input[type="checkbox"] { vertical-align:middle; margin:3px 5px 5px 5px; }
+
+/* BADGES
+---------------------------------------------------------- */
+span.badge-green,
+span.badge-red,
+span.badge-yellow,
+span.badge-gray { width:60px; display:inline-block; padding: 2px 9px; border-radius: 0.25em; font-size: 11px; font-weight: normal; line-height: 14px; color: #ffffff;   vertical-align: baseline; white-space: nowrap; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); text-align: center; }
+span.badge-green { background-color:#468847; }
+span.badge-red { background-color: #b94a48; }
+span.badge-yellow { background-color: #f0ad4e; }
+span.badge-gray { background-color: #9a9a9a; }
+span.badge-lightgray { background-color: #cfcfcf; color: #3f3f3f; }
+span.badge-zerogray { background-color: #cfcfcf; color: #888; text-shadow: none; }
+
+span.label-blue,
+span.label-green,
+span.label-red,
+span.label-yellow,
+span.label-gray,
+span.label-lightgray,
+span.label-listing-id { width:auto; display:inline-block; padding: 2px 9px; border-radius: 0.25em; font-size: 11px; font-weight: normal; line-height: 14px; color: #ffffff; vertical-align: baseline; white-space: nowrap; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+span.label-blue { background-color:#5BC0DE; }
+span.label-green { background-color:#468847; }
+span.label-red { background-color: #b94a48; }
+span.label-yellow { background-color: #9a9a47; }
+span.label-gray { background-color: #9a9a9a; }
+span.label-lightgray { background-color: #cfcfcf; color: #3f3f3f; }
+span.label-zerogray { background-color: #cfcfcf; color: #888; text-shadow: none; }
+span.label-listing-id { background-color: #cfcfcf; color: #3f3f3f; margin-top:10px; }
+
+.action-disabled { background-color: #ccc !important; color: #000 !important; }
+.action-disabled .fa-dollar {color: #000 !important; }
+
+
+/* COMPANY STAFF & CUSTOMERS CONTAINER
+---------------------------------------------------------- */
+.customers-container .tab-content,
+.listing-container .tab-content,
+.trade-in-container #frmTradeInEdit,
+.profile-container .tab-content { width: 335px; margin-bottom: 25px; }
+
+.related-sellers-container .row { width: 335px; margin-right: 0px; margin-left: 0px; }
+.preferences-container .row { width: 335px; margin-right: 0px; margin-left: 0px; }
+.bids-container .row { width: 335px; margin-right: 0px; margin-left: 0px; }
+.company-container .row { width: 335px; margin-right: 0px; margin-left: 0px; }
+.staff-container .row { width: 335px; margin-right: 0px; margin-left: 0px; }
+
+.staff-container .row,
+.location-container .row,
+.customers-container .row,
+.listing-container .row,
+.trade-in-container .row,
+.profile-container .row{ margin-right: 0px; margin-left: 0px; }
+.table-responsive .addbutton{ margin: 10px 0 20px 0; cursor: pointer; }
+
+.related-sellers-container .buttons-wrapper { margin-top: 20px; }
+.preferences-container .buttons-wrapper { margin-top: 30px; }
+.bids-container .buttons-wrapper { margin-top: 30px; }
+.location-container .buttons-wrapper { margin-top: 20px; }
+.company-container .buttons-wrapper { margin-top: 20px; }
+.staff-container .buttons-wrapper { margin-top: 20px; }
+.company-container .buttons-wrapper { margin-top: 30px; }
+.customers-container .buttons-wrapper { margin-top: 30px; }
+.dashboard-wrapper .buttons-wrapper { margin-top: 30px; }
+.newsletter-wrapper .buttons-wrapper { margin-top: 40px; }
+
+/* AUTHORIZED BUYERS
+---------------------------------------------------------- */
+.authorized-block{}
+.form-label{margin: 0 0 15px 15px !important;}
+
+/* FOOTER
+----------------------------------------------------------- */
+.copyrights-left { height:40px; }
+/* Button cancel update */
+.bw-bottom .btn{line-height: 1.68571; text-transform: uppercase; font-family: 'Roboto Condensed', sans-serif; font-size: 14px; font-weight: 700;}
+
+/* FOOTER
+----------------------------------------------------------- */
+.dashboard-wrapper { min-height:500px;}
+.dashboard-wrapper .xsmall {width: 40px !important;}
+.dashboard-wrapper .small {width: 60px !important;}
+.dashboard-wrapper .medium {width: 100px !important;}
+.dashboard-wrapper .xmedium {width: 140px !important;}
+.dashboard-wrapper .normal {width: 210px !important;}
+.dashboard-wrapper .middle {width: 300px !important;}
+.dashboard-wrapper .large {width: 450px !important;}
+
+p.small-text { width:auto !important; font-size:11px; }
+
+
+.preferences-container #make_ids, .listing-container #features_basic, .listing-container #features_special, .listing-container #features_luxury { width: 600px; list-style-type: none; margin-left:0px; margin-bottom:20px; display:inline-block; }
+.preferences-container #make_ids li, .listing-container #features_basic li, .listing-container #features_special li.listing-container #features_luxury li {float:left;}
+.preferences-container #make_ids li label, .listing-container #features_basic li label, .listing-container #features_special li label, .listing-container #features_luxury li label {width:260px; margin-left:10px;}
+.preferences-container #make_ids li label:nth-child(2n+1), .listing-container #features_basic li:nth-child(2n+1), .listing-container #features_special li:nth-child(2n+1), .listing-container #features_luxury li:nth-child(2n+1) {clear: both; float: left;}
+
+.bids-container .bid-comments { min-width: 600px; min-height: 100px; }
+.listing-container .listing-descr { min-width: 600px; min-height: 100px; }
+.listing-container .tab-content .file { height: auto; }
+.input-group {padding: 0 0 15px 0;}
+/** Fix for seller listings add/edit mode */
+#frmListingAdd_row_44 label { width:210px; }
+#frmListingEdit_row_44 label { width:170px; }
+/** Fix for seller company edit mode */
+#frmSellerCompanyEdit_row_0 label { width:170px; }
+#frmSellerCompanyEdit .company-descr { min-width: 600px !important; min-height: 100px; }
+/** Fix for seller listing images add/multipleadd/edit mode */
+#frmImageAdd_row_0 label { width:170px; }
+#frmMultipleImagesAdd label { width:170px; }
+#frmImageEdit_row_0 label { width:170px; }
+
+.staff-container .tab-content .file { height: auto; }
+.company-container .file { height: auto; }
+
+/** Fix for seller account add/edit mode */
+#frmSellerAdd_row_13 div,
+#frmSellerEdit_row_13 div { display: block !important; }
+/** Fix for buyer account add/edit mode */
+#frmBuyerAdd_row_14 div,
+#frmBuyerEdit_row_15 div { display: block !important; }
+#frmBuyerCompanyEdit .company-descr { min-width: 600px !important; min-height: 100px; }
+
+#frmBuyerPreferenceAdd_is_default { margin-left:10px; }
+#frmBuyerPreferenceEdit_is_default { margin-left:10px; }
+
+
+/* ICONS
+---------------------------------------------------------- */
+/*img.icon          { height:22px; }
+img.icon-small      { height:48px; }
+img.icon-middle     { height:90px; }*/
+img.icon-big        { height:120px; }
+img.icon-xbig       { width:240px; }
+
+/* MAKE AN OFFER / SEARCH LISTINGS
+------------------------------------------------------------------------*/
+.fixedImageSearch{height: 190px;}
+.search-result-link{height: 38px;}
+
+/* DETAILS LISTING PAGE
+------------------------------------------------------------------------*/
+#load_estimator{margin-top: -50px;}
+.vehicle-details-tabs {padding-bottom: 15px;}
+.image-listing-block form{width: 335px;}
+.image-listing-block #image_file{ height: auto; }
+#frmMultipleImagesAdd input.file{ height: auto; }
+.non-block {display: inline;}
+#phn_height{height: 19px;}
+.recenly-img-height{ height: 140px;}
+.simple .tab-content {padding:0}
+.simple #vehicle-damages {margin-top:15px;}
+.simple .additional-images ul { margin:-8px -12px; }
+.simple li.item.format-video, .simple li.item.format-image { list-style-type:none; padding:2px; }
+.simple li.item.format-video img, .simple li.item.format-image img { margin:auto; display:block; }
+.simple li.item.format-image img { height:73px; }
+.simple li.item.format-video img { height:73px; }
+.simple .additional-images { margin-top:5px; padding:5px 10px; background-color:#f1f2f3; }
+
+@media only screen and (max-width: 767px){
+    .single-listing-actions .btn-group {
+        float:right !important;
+        display:block;
+        width:100%;
+        margin-bottom:20px;
+    }
+    .single-listing-actions .btn-group .btn {
+        width: 20%;
+    }
+
+    .single-vehicle-title .badge-premium-listing {
+        display: block;
+    }
+}
+
+/* MAP
+------------------------------------------------------------------------*/
+#vehicle-location { padding-left: 10px; padding-right: 10px; }
+.gmap3 { margin: 20px auto 40px auto; border: 1px dashed #C0C0C0; width:100%; height: 300px; }
+
+/* SAVED ITEMS
+------------------------------------------------------------------------*/
+.tool-box-in { max-height:220px; overflow-y: auto; }
+
+/* SAVED ITEMS
+------------------------------------------------------------------------*/
+div.central-part                { border:1px solid #ff0000; width:100%; float:left; margin-left:10px; padding-left:10px; border-left-width:1px; border-left-style:solid; border-left-color:#c7c7e7; margin-top:15px; margin-bottom:10px; }
+div.damage-content              { padding:10px 20px 2px !important; }
+table.damage tr th              { text-align:center; }
+table.damage tr th.left         { text-align:left; }
+table.damage tr td              { text-align:center; padding:0px; }
+table.damage tr td.left         { text-align:left; }
+select.damage,
+select.cleanliness              { color:#555; }
+select.damage-selected,
+select.cleanliness-selected     { color:#000; background-color:#ffffe7; border:1px solid #bbb; }
+select.damage option:checked,
+select.cleanliness option:checked   { color:#000; background-color:#ccc; }
+textarea.damage                 { width:95%; height:35px; min-height:35px; resize:vertical; padding-top:2px;}
+/** Fix for Listing Damages Management */
+table.saved-searches-table div.bootstrap-select { margin-bottom:0px !important; }
+
+
+/* VECHICLE DESCRIPTION
+------------------------------------------------------------------------*/
+.single-listing-actions .vat-offer-wrapper { display:inline-block; margin-top:-1px; }
+.single-listing-actions .price { margin-right:10px; }
+.single-listing-actions .btn-offer-info { padding:5px 10px; margin-left:7px; cursor: default; }
+.single-listing-actions .btn-offer-info:first-child { margin-left:0px; }
+.single-listing-actions .cursor-default { cursor:default; }
+.single-vehicle-details .btn-warning.price{
+    cursor:default;
+    padding:0 5px;
+    line-height:1.6em;
+    min-width:120px;
+    font-size:22px;
+    background-color: #E96C4C;
+}
+.format-video img { width:170px;/* height:114px;*/ }
+.col-md-tax-information { margin-top:-6px }
+#description-container .alert       { padding-top:2px; }
+
+/* SEARCH RESULTS
+------------------------------------------------------------------------*/
+.vehicle-sold { left:55px; }
+.price-included{ position: absolute; top:15px; left:55px; z-index:9; }
+.price-included-home{ position: absolute; top:15px; left:85px; z-index:9; }
+
+
+/* FIXEs
+------------------------------------------------------------------------*/
+.datepicker-days .day { width:40px; border:1px solid #fff; padding:4px; }
+#top-menu .caret { display:none; }
+.caret {
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+blockquote cite{
+    color: #e96c4c;
+}
+
+.voffset0 {margin-top:0px; }
+.voffset1 {margin-top:1px; }
+.voffset2 {margin-top:2px; }
+.voffset3 {margin-top:3px; }
+.voffset5 {margin-top:5px; }
+
+.widgettitle { color: #000; }
+.load-estimator { margin-bottom:0px !important; }
+
+/* COOL CHECKBOXES
+------------------------------------------------------------------------*/
+.slideBox { width:66px; height:24px; margin:0px; margin-bottom:15px; background: #dddddd; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; position: relative; -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.2); -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.2); box-shadow: inset 0px 1px 1px rgba(0,0,0,0.3), 0px 1px 0px rgba(255,255,255,0.2); }
+.slideBox input[type=checkbox] { visibility: hidden; }
+.slideBox:after { content:'OFF'; font:12px/26px Arial, sans-serif; color: #880000; position: absolute; right: 7px; top:0px; z-index: 0; font-weight: bold; text-shadow: 1px 1px 0px rgba(255,255,255,.15); }
+.slideBox:before { content:'ON'; font:12px/26px Arial, sans-serif; color: #008800; position: absolute; left: 8px; top:0px; z-index: 0; font-weight: bold; }
+.slideBox label { _float:left; display:block; margin:0px; width:28px; height:18px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-transition: all .4s ease; -moz-transition: all .4s ease; -o-transition: all .4s ease; -ms-transition: all .4s ease; transition: all .4s ease; cursor: pointer; position: absolute; top: 3px; left: 3px; z-index: 1; -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3); -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3); box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3); background: #fcfff4; background: -webkit-linear-gradient(top, #fcfff4 0%, #efefef 40%, #efefef 100%); background: -moz-linear-gradient(top, #fcfff4 0%, #efefef 40%, #efefef 100%); background: -o-linear-gradient(top, #fcfff4 0%, #efefef 40%, #efefef 100%); background: -ms-linear-gradient(top, #fcfff4 0%, #efefef 40%, #efefef 100%); background: linear-gradient(top, #fcfff4 0%, #efefef 40%, #efefef 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#efefef',GradientType=0 ); }
+.slideBox input[type=checkbox]:checked + label { left:35px; }
+
+
+/* EVALUATION STARS
+---------------------------------------------------------- */
+label.stars, label.stars label { display:inline-block; background: url(../images/stars.png) 0 -16px repeat-x; width:80px; height:16px; margin:0px; padding:0px; }
+label.stars label { background-position: 0 0; }
+/* FIX for Company Details page */
+.form-label.stars { margin: 0px 0px 0px 15px !important; }
+
+/* UI AUTOCOMPLETE
+---------------------------------------------------------- */
+.ui-menu-item { font-size: 12px; }
+.ui-state-focus { background: none !important; background-color: #e8e8e8 !important; border: none !important; padding:3px 6px !important; }
+
+/* UI DATEPICKER
+---------------------------------------------------------- */
+#ui-datepicker-div { z-index:100 !important; }
+
+/* SEARCH SELLER 
+---------------------------------------------------------- */
+.dealer-block-inner { border:10px solid #ccc; margin-bottom:20px;  }
+
+/* NEWS MODULE
+---------------------------------------------------------- */
+.news-intro-image-thumb  { width:240px; border:1px solid #efefef; }
+.news-intro-image { width:270px; border:1px solid #efefef; margin-right:20px;  }
+
+/* BLOG MODULE
+---------------------------------------------------------- */
+.blog-post-image { width:270px; border:1px solid #efefef; margin-right:20px;  }
+
+/* TRADE-IN
+---------------------------------------------------------- */
+.trade-in-container TABLE TR TH { font-size:15px !important; }
+
+/* TRADE-IN
+---------------------------------------------------------- */
+.account-avatar { width:120px; margin-right:200px; }
+.account-file	{ height:auto; margin-bottom:15px !important; }
+
+/* LISTINGS
+---------------------------------------------------------- */
+.car-image IMG { width:80px; height:48px; }
+.back-to-my-bids { float:left; margin-top:5px; }

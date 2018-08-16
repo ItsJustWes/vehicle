@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html class="no-js">
+<head>
+<title>Listing Damages</title>
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+
+	<!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" type="text/css" href="custom.backend.css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap-theme.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="custom.css" /><!-- CUSTOM STYLESHEET FOR STYLING -->
+	</head>
+<body class="home">
+<div class="body">
+
+		<!-- Start Body Content -->
+		<div class="main" role="main">
+			<div id="content" class="content full">
+				<div class="container">
+					
+<!-- Start Body Content -->
+<div class="dashboard-wrapper">
+    <div class="row">
+
+		<div class="col-md-12 col-sm-12">
+		<h2>Listing Damages</h2>
+
+		<ul class="nav nav-tabs">
+			<li class="active"><a href="#">This is the Car Listing link</a></li>
+			<a href="#" class="btn pull-right">&laquo; Back to Listings</a>
+		</ul>
+		<br>
+
+				
+		<form action="#" method="post"><input type="hidden" value="send" name="act" id="act" />
+
+		
+		<div class="buttons-wrapper bw-top">
+			<input name="btnUpdateClose" class="btn btn-info" value="Update Listing & Close" type="submit">
+			<input name="btnUpdate" class="btn btn-info" value="Update Listing" type="submit">
+		</div>
+
+		<div class="dashboard-block">
+			<div class="table-responsive">					
+				<table class="table table-bordered dashboard-tables saved-searches-table">
+				<thead>
+					<tr>
+						<th width="210px">Vehicle Part</th>
+						<th width="170px">Damage Type</th>
+						<th>Comments</th>
+					</tr>
+				</thead>
+				<tbody>
+				<tr id="field_1"><td><b>1. Front Bumper</b></td><td><select class="form-control selectpicker" name="damage_type[1]" id="damage_type_1">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[1]" id="comments_1"></textarea></td></tr><tr id="field_2"><td><b>2. Hood</b></td><td><select class="form-control selectpicker" name="damage_type[2]" id="damage_type_2">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[2]" id="comments_2"></textarea></td></tr><tr id="field_3"><td><b>3. Front Fender Left</b></td><td><select class="form-control selectpicker" name="damage_type[3]" id="damage_type_3">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[3]" id="comments_3"></textarea></td></tr><tr id="field_4"><td><b>4. Front Fender Right</b></td><td><select class="form-control selectpicker" name="damage_type[4]" id="damage_type_4">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[4]" id="comments_4"></textarea></td></tr><tr id="field_5"><td><b>5. Roof</b></td><td><select class="form-control selectpicker" name="damage_type[5]" id="damage_type_5">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[5]" id="comments_5"></textarea></td></tr><tr id="field_6"><td><b>6. Left Front Door</b></td><td><select class="form-control selectpicker" name="damage_type[6]" id="damage_type_6">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[6]" id="comments_6"></textarea></td></tr><tr id="field_7"><td><b>7. Right Front Door</b></td><td><select class="form-control selectpicker" name="damage_type[7]" id="damage_type_7">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[7]" id="comments_7"></textarea></td></tr><tr id="field_8"><td><b>8. Left Rear Door</b></td><td><select class="form-control selectpicker" name="damage_type[8]" id="damage_type_8">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[8]" id="comments_8"></textarea></td></tr><tr id="field_9"><td><b>9. Right Rear Door</b></td><td><select class="form-control selectpicker" name="damage_type[9]" id="damage_type_9">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[9]" id="comments_9"></textarea></td></tr><tr id="field_10"><td><b>10. Back Glass</b></td><td><select class="form-control selectpicker" name="damage_type[10]" id="damage_type_10">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[10]" id="comments_10"></textarea></td></tr><tr id="field_11"><td><b>11. Rear Fender Left</b></td><td><select class="form-control selectpicker" name="damage_type[11]" id="damage_type_11">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[11]" id="comments_11"></textarea></td></tr><tr id="field_12"><td><b>12. Rear Fender Right</b></td><td><select class="form-control selectpicker" name="damage_type[12]" id="damage_type_12">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[12]" id="comments_12"></textarea></td></tr><tr id="field_13"><td><b>13. Rear Bumper</b></td><td><select class="form-control selectpicker" name="damage_type[13]" id="damage_type_13">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[13]" id="comments_13"></textarea></td></tr><tr id="field_14"><td><b>14. Rear Wheel Left</b></td><td><select class="form-control selectpicker" name="damage_type[14]" id="damage_type_14">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[14]" id="comments_14"></textarea></td></tr><tr id="field_15"><td><b>15. Front Wheel Left</b></td><td><select class="form-control selectpicker" name="damage_type[15]" id="damage_type_15">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[15]" id="comments_15"></textarea></td></tr><tr id="field_16"><td><b>16. Rear Wheel Right</b></td><td><select class="form-control selectpicker" name="damage_type[16]" id="damage_type_16">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[16]" id="comments_16"></textarea></td></tr><tr id="field_17"><td><b>17. Front Wheel Right</b></td><td><select class="form-control selectpicker" name="damage_type[17]" id="damage_type_17">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[17]" id="comments_17"></textarea></td></tr><tr id="field_18"><td><b>18. Windshield</b></td><td><select class="form-control selectpicker" name="damage_type[18]" id="damage_type_18">
+<option value="0" selected="selected">No Damage</option>
+<option value="1">Scratch</option>
+<option value="2">Blow</option>
+<option value="3">Scratch and Blow</option>
+</select></td><td><textarea class="form-control damage" maxLength="2048" name="comments[18]" id="comments_18"></textarea></td></tr>				</tbody>
+				</table>
+			</div>
+		</div>
+		<br>
+
+		<div class="clearfix"></div>
+
+		
+		<br><br>
+
+		</form>
+        </div>		
+    </div>
+</div>				</div>
+			</div>
+		</div>
+		<!-- End Body Content -->
+	    
+</div>
+
+
+
+
+</body>
+</html>
